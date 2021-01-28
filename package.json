@@ -1,0 +1,50 @@
+{
+  "name": "my-app-sumup",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/core": "^10.1.1",
+    "@emotion/styled": "^10.0.0",
+    "@sumup/circuit-ui": "^2.2.5",
+    "@sumup/collector": "^1.0.4",
+    "@sumup/design-tokens": "^2.1.0",
+    "@sumup/icons": "^1.3.1",
+    "@sumup/intl": "^1.1.3",
+    "emotion-theming": "^10.0.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-scripts": "4.0.1",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "postinstall": "yarn run foundry init",
+    "create:component": "foundry run plop component"
+  },
+  "eslintConfig": {
+    "extends": ".eslintrc.js"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@sumup/foundry": "^4.0.0-canary",
+    "@testing-library/jest-dom": "^5.11.6",
+    "@testing-library/react": "^11.2.2",
+    "jest-axe": "^3.1.1",
+    "jest-emotion": "^10.0.27",
+    "jest-watch-typeahead": "^0.6.1"
+  }
+}
